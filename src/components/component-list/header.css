@@ -1,0 +1,95 @@
+.header{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header-menu, .left-side-menu, .search-menu, .footer-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu, .footer-options {
+    justify-content: space-between;
+    width: 95vw;
+    align-items: center;
+}
+
+.left-side-menu > button {
+    margin-right: 2vw;
+}
+
+.left-side-menu > div > div {
+    /* margin-right: 1vw; */
+}
+
+.search-bar, .search-icon{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2vw;
+}
+
+.search-bar:hover{
+    border-bottom: 1px white solid;
+}
+
+#logo {
+    background-image: url('../../img/free-logo.jpg');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    /* margin-left: 44.5vw; */
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#logo:active{
+    opacity: 75%;
+}
+
+.link-button {
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 2vw;
+    border: none;
+}
+
+.link-button:hover{
+    cursor: pointer;
+}
+
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weather:hover{
+    opacity: 75%;
+}
+
+.weather-icon{
+    width: 5vw;
+    height: 5vh;
+    padding-right: 1vw;
+    background-repeat: no-repeat;
+}
+
+.weather-temp{
+    font-size: 2.6vw;
+    font-weight: 700;
+}
+
+.isDisplay{
+    display: none;
+}

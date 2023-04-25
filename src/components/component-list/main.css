@@ -1,0 +1,57 @@
+.main{
+    padding-top: 20vh;
+    flex:1;
+}
+
+.time {
+    font-size: 11vw;
+    padding-top: 10vh;
+}
+
+.ask-name{
+    font-size: 6vw;
+    padding-bottom: 5vh;
+}
+
+.type-your-name-form, .type-your-email-form, .type-your-pw-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input-your-name, .input-your-email, .input-your-pw{
+    width: 100%;
+    height: 5vh;
+    font-size: 4vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: white solid 3px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 7vh;
+}
+
+form .button-novisible{
+    border: 0px transparent solid !important;
+}
+
+.continue-btn{
+    width: 15vw;
+    /* margin-left: 25vw; */
+    cursor: pointer;
+}
+
+.main button, .footer button, .continue-btn{
+    color: white;
+    background-color: transparent;
+    font-size: 1.5vw;
+    border-radius: 25px;
+    padding: 8px 30px 8px 30px;
+    border: 2px white solid;
+}
+
+.isDisplay{
+    display: none;
+}
